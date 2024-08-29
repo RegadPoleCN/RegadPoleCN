@@ -3,10 +3,10 @@
 👦 I'm a `Java/Kotlin` Developer\
 🌱 I’m currently learning `Kotlin/Python`
 
-email: [1651233735@qq.com](mailto:1651233735@qq.com)\
 QQ: [1651233735](https://res.abeim.cn/api/qq/?qq=1651233735)\
 爱发电: [RegadPole](https://afdian.com/a/RegadPole)\
-bilibili: [500918417](https://space.bilibili.com/500918417)
+bilibili: [500918417](https://space.bilibili.com/500918417)\
+email: [1651233735@qq.com](mailto:1651233735@qq.com)
 
 ---
 
@@ -18,15 +18,16 @@ bilibili: [500918417](https://space.bilibili.com/500918417)
 ---
 # My Projects
 
- - [PlumBot](https://github.com/RegadPoleCN/PlumBot)\
+ - [RegadPoleCN/PlumBot](https://github.com/RegadPoleCN/PlumBot)\
    ![GitHub Downloads](https://img.shields.io/github/downloads/RegadPoleCN/PlumBot/total?logo=github)
    ![Modrinth Downloads](https://img.shields.io/modrinth/dt/PlumBot?logo=modrinth&label=modrinth)
 
- - [BwAddon](https://github.com/RegadPoleCN/BwAddon)
+ - [RegadPoleCN/BwAddon](https://github.com/RegadPoleCN/BwAddon)
+ - [LinearBit/LinearBot](https://github.com/LinearBit/LinearBot)
 ---
 
 # Github 提交统计
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=RegadPoleCN&show_icons=true)\
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=RegadPoleCN&show_icons=true)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=RegadPoleCN&layout=donut)
 
 ---
