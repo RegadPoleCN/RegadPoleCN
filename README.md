@@ -1,4 +1,6 @@
-# <div align="center">[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=1000&size=40&pause=1000&color=0F54BD&center=true&vCenter=true&width=500&height=60&lines=%E5%89%8D%E9%80%94%E4%BC%BC%E6%B5%B7%EF%BC%8C%E6%9D%A5%E6%97%A5%E6%96%B9%E9%95%BF)](https://git.io/typing-svg)</div>
+# <div align="center">
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&border=true&bg_color=0D1117" />
+</div>
 ---
 
 ## Contact
