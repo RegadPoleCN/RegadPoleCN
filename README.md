@@ -85,7 +85,7 @@
         </li>
       </ul>
       <h3>GitHub Stats</h3>
-      <img src="https://github-readme-stats.vercel.app/api?username=RegadPoleCN&show_icons=true" width="100%" />
+      <img src="https://github-readme-stats-fast.vercel.app/api?username=RegadPoleCN&show_icons=true" width="100%" />
     </td>
   </tr>
 </table>
