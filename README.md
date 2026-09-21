@@ -6,26 +6,11 @@
 
 ## Contact
 
-<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 10px 20px; line-height: 1.8; padding: 10px;">
-  <span style="white-space: nowrap; flex-shrink: 0;">
-    <strong>X:</strong> <a href="https://x.com/RegadPole">RegadPole</a>
-  </span>
-  <span style="color: #888; white-space: nowrap; flex-shrink: 0;">•</span>
-  <span style="white-space: nowrap; flex-shrink: 0;">
-    <strong>QQ:</strong> <a href="https://res.abeim.cn/api/qq/?qq=1651233735">1651233735</a>
-  </span>
-  <span style="color: #888; white-space: nowrap; flex-shrink: 0;">•</span>
-  <span style="white-space: nowrap; flex-shrink: 0;">
-    <strong>爱发电:</strong> <a href="https://afdian.com/a/RegadPole">RegadPole</a>
-  </span>
-  <span style="color: #888; white-space: nowrap; flex-shrink: 0;">•</span>
-  <span style="white-space: nowrap; flex-shrink: 0;">
-    <strong>bilibili:</strong> <a href="https://space.bilibili.com/500918417">500918417</a>
-  </span>
-  <span style="color: #888; white-space: nowrap; flex-shrink: 0;">•</span>
-  <span style="white-space: nowrap; flex-shrink: 0;">
-    <strong>email:</strong> <a href="mailto:1651233735@qq.com">1651233735@qq.com</a>
-  </span>
+<div align="center">
+
+| **X:** [RegadPole](https://x.com/RegadPole) | **QQ:** [1651233735](https://res.abeim.cn/api/qq/?qq=1651233735) | **爱发电:** [RegadPole](https://afdian.com/a/RegadPole) | **bilibili:** [500918417](https://space.bilibili.com/500918417) | **email:** [1651233735@qq.com](mailto:1651233735@qq.com) |
+|:---:|:---:|:---:|:---:|:---:|
+
 </div>
 
 ---
