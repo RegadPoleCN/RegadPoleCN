@@ -22,49 +22,47 @@
   </picture>
 </div>
 
-<table align="center" cellspacing="0" cellpadding="0" style="width: 100%; max-width: 1200px; margin: 20px 0;">
-  <tr>
-    <td style="vertical-align: top; padding: 10px; width: 50%;">
-      <div align="center">
-        <img width="100%" alt="GitHub basic" src="https://raw.githubusercontent.com/RegadPoleCN/RegadPoleCN/refs/heads/main/github-basic.svg" />
-        <br><br>
-        <img width="100%" alt="GitHub repo" src="https://raw.githubusercontent.com/RegadPoleCN/RegadPoleCN/refs/heads/main/github-repo.svg" />
-      </div>
-    </td>
-    <td style="vertical-align: top; padding: 10px; padding-left: 20px; width: 50%;">
-      <div align="center">
-        <img width="100%" alt="GitHub steam" src="https://raw.githubusercontent.com/RegadPoleCN/RegadPoleCN/refs/heads/main/github-steam.svg" />
-      </div>
-      <h3>Website</h3>
-      <ul>
-        <li>https://regadpole.top</li>
-        <li>https://status.regadpole.top/</li>
-      </ul>
-      <h3>My Projects</h3>
-      <ul style="list-style: none; padding-left: 0;">
-        <li style="margin-bottom: 15px;">
-          <a href="https://github.com/RegadPoleCN/PlumBot" style="text-decoration: none;">
-            <strong>RegadPoleCN/PlumBot</strong><br>
-            <img src="https://img.shields.io/github/downloads/RegadPoleCN/PlumBot/total?logo=github" />
-            <img src="https://img.shields.io/modrinth/dt/PlumBot?logo=modrinth&label=modrinth" />
-          </a>
-        </li>
-        <li style="margin-bottom: 15px;">
-          <a href="https://github.com/RegadPoleCN/BwAddon" style="text-decoration: none;">
-            <strong>RegadPoleCN/BwAddon</strong>
-          </a>
-        </li>
-        <li style="margin-bottom: 15px;">
-          <a href="https://github.com/LinearBit/LinearBot" style="text-decoration: none;">
-            <strong>LinearBit/LinearBot</strong>
-          </a>
-        </li>
-      </ul>
-      <h3>GitHub Stats</h3>
-      <img src="https://github-readme-stats-fast.vercel.app/api?username=RegadPoleCN&show_icons=true" width="100%" />
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <picture>
+    <source media="(max-width: 768px)" srcset="https://raw.githubusercontent.com/RegadPoleCN/RegadPoleCN/main/banner-mobile.svg" />
+    <img src="https://raw.githubusercontent.com/RegadPoleCN/RegadPoleCN/main/banner-desktop.svg" alt="banner" width="100%" />
+  </picture>
+</div>
+
+---
+
+<h3>Website</h3>
+<ul>
+  <li>https://regadpole.top</li>
+  <li>https://status.regadpole.top</li>
+</ul>
+
+<h3>My Projects</h3>
+<ul style="list-style: none; padding-left: 0;">
+  <li style="margin-bottom: 15px;">
+    <a href="https://github.com/RegadPoleCN/PlumBot" style="text-decoration: none;">
+      <strong>RegadPoleCN/PlumBot</strong><br>
+      <img src="https://img.shields.io/github/downloads/RegadPoleCN/PlumBot/total?logo=github" />
+      <img src="https://img.shields.io/modrinth/dt/PlumBot?logo=modrinth&label=modrinth" />
+    </a>
+  </li>
+  <li style="margin-bottom: 15px;">
+    <a href="https://github.com/RegadPoleCN/fursuit-tv-sdk" style="text-decoration: none;">
+      <strong>RegadPoleCN/fursuit-tv-sdk</strong><br>
+      <img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-2.1.20+-purple.svg">
+      <img alt="Maven Central Version" src="https://img.shields.io/maven-central/v/com.furrist.rp/fursuit-tv-sdk">
+    </a>
+  </li>
+  <li style="margin-bottom: 15px;">
+    <a href="https://github.com/RegadPoleCN/BwAddon" style="text-decoration: none;">
+      <strong>RegadPoleCN/BwAddon</strong>
+    </a>
+  </li>
+</ul>
+<h3>GitHub Stats</h3>
+<img src="https://github-readme-stats-fast.vercel.app/api?username=RegadPoleCN&show_icons=true" width="390" />
+
+---
 
 <div align="center" style="margin-top: 20px;">
   <small>✨ Thanks for visiting! ✨</small>
