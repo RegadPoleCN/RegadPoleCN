@@ -53,35 +53,23 @@ jobs:
           plugin_followup: yes
           plugin_followup_archived: yes
           plugin_followup_sections: repositories
-      - name: repo
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+      - name: other
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-          filename: github-repo.svg
+          filename: github-other.svg
           template: classic
           base: ""
           config_timezone: Asia/Shanghai
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
-          plugin_lines: yes
-          plugin_lines_history_limit: 5
-          plugin_lines_repositories_limit: 4
-          plugin_lines_sections: base
           plugin_repositories: yes
-          plugin_repositories_featured: PlumBot, TOC-Project-Team/PathFinder
+          plugin_repositories_featured: PlumBot, fursuit-tv-sdk
           plugin_repositories_order: featured, pinned, starred, random
           plugin_people: yes
           plugin_people_limit: 24
           plugin_people_size: 28
           plugin_people_types: followers, following
-      - name: steam
-        uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          filename: github-steam.svg
-          template: classic
-          base: ""
-          config_timezone: Asia/Shanghai
           plugin_fortune: yes
           plugin_pagespeed: yes
           plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
