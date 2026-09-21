@@ -83,4 +83,76 @@ jobs:
           plugin_steam_recent_games_limit: 1
           plugin_steam_sections: player, most-played, recently-played
           plugin_steam_user: "76561199035455932"
+
+      - name: Merge SVGs into desktop & mobile banners
+        run: |
+          python3 << 'EOF'
+          import re
+
+          def load(path):
+              with open(path, "r", encoding="utf-8") as f:
+                  return f.read()
+
+          def clean(svg):
+              """去掉 xml 声明和 DOCTYPE，保留完整 <svg>...</svg>"""
+              svg = re.sub(r'<\?xml[^>]*\?>', '', svg)
+              svg = re.sub(r'<!DOCTYPE[^>]*>', '', svg)
+              return svg.strip()
+
+          def get_viewbox(svg):
+              """提取 viewBox 宽高；没有就退回 width/height；再没有就给默认值"""
+              m = re.search(r'viewBox="([\d\.\-\s]+)"', svg)
+              if m:
+                  parts = m.group(1).split()
+                  if len(parts) == 4:
+                      return float(parts[2]), float(parts[3])
+              w = re.search(r'width="([\d\.]+)"', svg)
+              h = re.search(r'height="([\d\.]+)"', svg)
+              return (float(w.group(1)) if w else 500,
+                      float(h.group(1)) if h else 300)
+
+          basic_raw = load("github-basic.svg")
+          other_raw = load("github-other.svg")
+
+          basic = clean(basic_raw)
+          other = clean(other_raw)
+
+          bw, bh = get_viewbox(basic_raw)
+          ow, oh = get_viewbox(other_raw)
+
+          GAP = 20
+
+          # ---- 桌面：横向并排 ----
+          desktop_w = bw + ow + GAP
+          desktop_h = max(bh, oh)
+          desktop = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {desktop_w} {desktop_h}" width="{desktop_w}" height="{desktop_h}">
+          <svg x="0" y="0" width="{bw}" height="{bh}" viewBox="0 0 {bw} {bh}">{basic}</svg>
+          <svg x="{bw + GAP}" y="0" width="{ow}" height="{oh}" viewBox="0 0 {ow} {oh}">{other}</svg>
+          </svg>'''
+
+          # ---- 移动：纵向堆叠 ----
+          mobile_w = max(bw, ow)
+          mobile_h = bh + oh + GAP
+          mobile = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {mobile_w} {mobile_h}" width="{mobile_w}" height="{mobile_h}">
+          <svg x="0" y="0" width="{bw}" height="{bh}" viewBox="0 0 {bw} {bh}">{basic}</svg>
+          <svg x="0" y="{bh + GAP}" width="{ow}" height="{oh}" viewBox="0 0 {ow} {oh}">{other}</svg>
+          </svg>'''
+
+          with open("banner-desktop.svg", "w", encoding="utf-8") as f:
+              f.write(desktop)
+          with open("banner-mobile.svg", "w", encoding="utf-8") as f:
+              f.write(mobile)
+
+          print(f"desktop: {desktop_w}x{desktop_h}")
+          print(f"mobile:  {mobile_w}x{mobile_h}")
+          print("done")
+          EOF
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add banner-desktop.svg banner-mobile.svg
+          git diff --staged --quiet && echo "no changes" || git commit -m "chore: update banner svgs - [Skip GitHub Action]"
+          git push
        
