@@ -8,8 +8,7 @@
 
 <div align="center">
 
-| **X:** [RegadPole](https://x.com/RegadPole) | **QQ:** [1651233735](https://res.abeim.cn/api/qq/?qq=1651233735) | **爱发电:** [RegadPole](https://afdian.com/a/RegadPole) | **bilibili:** [500918417](https://space.bilibili.com/500918417) | **email:** [1651233735@qq.com](mailto:1651233735@qq.com) |
-|:---:|:---:|:---:|:---:|:---:|
+<span>**X:**&nbsp;[RegadPole](https://x.com/RegadPole)</span> &nbsp;•&nbsp; <span>**QQ:**&nbsp;[1651233735](https://res.abeim.cn/api/qq/?qq=1651233735)</span> &nbsp;•&nbsp; <span>**爱发电:**&nbsp;[RegadPole](https://afdian.com/a/RegadPole)</span> &nbsp;•&nbsp; <span>**bilibili:**&nbsp;[500918417](https://space.bilibili.com/500918417)</span> &nbsp;•&nbsp; <span>**email:**&nbsp;[1651233735&#64;qq&#46;com](mailto:1651233735@qq.com)</span>
 
 </div>
 
