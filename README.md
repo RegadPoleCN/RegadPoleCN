@@ -34,6 +34,7 @@
 <h3>Website</h3>
 <ul>
   <li>https://regadpole.top</li>
+  <li>https://blog.regadpole.top</li>
   <li>https://status.regadpole.top</li>
 </ul>
 
